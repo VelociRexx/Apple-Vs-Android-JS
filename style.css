@@ -1,0 +1,77 @@
+body {
+  margin: 0 auto;
+  width: 600px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 150px;
+  background-color: white;
+}
+html {
+  background-color: #cabfb6;
+}
+.center {
+  margin-left: 200px;
+}
+.button {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+#explore {
+  background-color: #c9793b;
+  border: 3px solid #c9793b;
+  color: black;
+  width: 130px;
+  padding: 15px 32px;
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
+}
+
+#android {
+  background-color: #a4c93b;
+  border: 3px solid #a4c93b;
+  color: black;
+  padding: 5px 35px;
+  border-radius: 5px;
+  box-shadow: 0 3px #999;
+}
+
+#apple {
+  background-color: #b6bcca;
+  border: 3px solid #b6bcca;
+  color: black;
+  padding: 5px 35px;
+  border-radius: 5px;
+  box-shadow: 0 3px #999;
+}
+p,
+li {
+  color: rgb(90, 88, 88);
+}
+
+b {
+  color: rgb(37, 37, 37);
+}
+
+#android:hover,
+#apple:hover,
+#back:hover {
+  border-color: rgb(37, 37, 37);
+}
+
+#explore:hover {
+  background-color: #925322;
+}
+.active {
+  border: 3px solid red;
+}
+#back {
+  background-color: #c9793b;
+  border: 3px solid #c9793b;
+  color: black;
+  padding: 5px 35px;
+  border-radius: 5px;
+  box-shadow: 0 3px #999;
+}
