@@ -15,6 +15,10 @@ function show_android() {
   //Active Button
   document.getElementById("android").classList.add("active");
   document.getElementById("apple").classList.remove("active");
+  /*
+  alert(document.getElementById("android").classList);
+  alert(document.getElementById("apple").classList);
+  */
 }
 
 document.getElementById("apple").addEventListener("click", show_apple);
@@ -32,6 +36,10 @@ function show_apple() {
   //Active Button
   document.getElementById("apple").classList.add("active");
   document.getElementById("android").classList.remove("active");
+  /*
+  alert(document.getElementById("apple").classList);
+  alert(document.getElementById("android").classList);
+  */
 }
 
 document.getElementById("back").addEventListener("click", show_normal);
